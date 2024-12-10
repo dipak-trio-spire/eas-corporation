@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import img1 from "../../public/img/s-1.svg"
-import img2 from "../../public/img/s-2.svg"
-import img3 from "../../public/img/s-3.svg"
-import img4 from "../../public/img/s-4.svg"
-import img5 from "../../public/img/s-5.svg"
+import img1 from "../../public/img/s-1.svg";
+import img2 from "../../public/img/s-2.svg";
+import img3 from "../../public/img/s-3.svg";
+import img4 from "../../public/img/s-4.svg";
+import img5 from "../../public/img/s-5.svg";
 
 const services = [
   {
@@ -13,7 +13,7 @@ const services = [
     hoverText: 'Gerne stellen wir Ihnen unser Produkt in einer Videokonferenz vor',
   },
   {
-    imgSrc:img2,
+    imgSrc: img2,
     text: 'Vollumfängliche Transparenz in „Realtime“ über alle Daten und alle relevanten Einflussgrößen des Produktes; von der Einzelteil-Ebene bis zum Gesamtprodukt',
     hoverText: 'Gerne stellen wir Ihnen unser Produkt in einer Videokonferenz vor',
   },
@@ -34,14 +34,22 @@ const services = [
   },
   {
     imgSrc: img1,
-    text: 'Produkt des Kunden wird zur zentralen Organisationseinheit',
+    text: [
+      "Denkbare Aggregationsebenen Cockpit",
+      "- Gesamtunternehmen",
+      "- Business Unit / z.B. Segment",
+      "- Produkt und Derivate / Varianten",
+      "- Fachbereiche (z.B. Karosserie, Fahrwerk, Elektrik- / Elektronik)",
+      "- SET Simultaneous Engineering Team",
+      "- Baugruppe / Komponente",
+      "- Einzelteil"
+    ],
     hoverText: 'Gerne stellen wir Ihnen unser Produkt in einer Videokonferenz vor',
   }
 ];
 
 export default function ServiceSection() {
   return (
-    <>
     <section className="service py">
       <div className="container">
         <div className="service-wrapper">
@@ -56,11 +64,24 @@ export default function ServiceSection() {
                   <Image src={service.imgSrc} alt="service image" width={100} height={100} />
                 </div>
                 <div className="service-text">
-                  <p>{service.text}</p>
+                  {Array.isArray(service.text) ? (
+                    <>
+                      <p>{service.text[0]}</p>
+                      <ul className='Service_ul'>
+                        {service.text.slice(1).map((item, i) => (
+                          <li key={i}>{item}</li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : (
+                    <p>{service.text}</p>
+                  )}
                 </div>
                 <div className="service-hover">
                   <p>{service.hoverText}</p>
-                  <Link href="/kontakt" aria-label="">VEREINBAREN SIE EINEN TERMIN</Link>
+                  <Link href="/kontakt" aria-label="">
+                    VEREINBAREN SIE EINEN TERMIN
+                  </Link>
                 </div>
               </div>
             ))}
@@ -68,7 +89,5 @@ export default function ServiceSection() {
         </div>
       </div>
     </section>
-    </>
-    
   );
 }

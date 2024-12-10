@@ -7,27 +7,36 @@ const page = () => {
       <h1>Impressum:</h1>
       <br></br>
       <br></br>
-      <h3>Anschrift:</h3>
-      <br></br>
-      <p>Königstraße 27</p>
-      <p>70173 Stuttgart </p>
+      <b>Kontakt:</b>
       <br></br>
       <br></br>
-      <h3>Kontakt:</h3>
+      <p>Enterprise Analytics Software GmbH</p>
+      <p>Königstrasse 27</p>
+      <p>70173 Stuttgart</p>
+      <p>( bisher Conix-Steel GmbH )</p>
+      <p>Tel: + 49 711 490 50 391</p>
+      <p>Fax: + 49 711 490 50 25</p>
+      <p>E-Mail: contact@eas-corporation.com</p>
+      <p>Web: www.eas-corporation.com</p>
       <br></br>
-      <p>Tel: +49 711 490 50 391</p>
-      <p>Fax: +49 711 – 490 50 25 </p>
-      <p>Email: contact@eas-corporation.com</p>
-      <p>Web: www.eas-corporation.com </p>
       <br></br>
-      <p>Geschäftsführung & inhaltlich Verantwortlicher gemäß § 10 Absatz 3 MDStV:</p>
+      <p>Vertretungsberechtigte Geschäftsführer und inhaltlich Verantwortliche gemäß § 10 Absatz 3 MDStV:</p>
       <br></br>
-      <p>Volker Zimmerer, Nicu Tudor</p>
+      <p>Dipl.-Betrw. (FH), MBA (univ.) </p>
+      <b>Volker P. Zimmerer </b>
       <br></br>
-      <p>Handelsregisterbuch</p>
-      <p>HRB</p>
-      <p>Amtsgericht Stuttgart</p>
-      <p>Umsatzsteuer-Identifikation: </p>
+      <br></br>
+      <br></br>
+      <p>Dipl.-Ing. (univ.), Dr.-Ing.</p>
+      <b>Nicolae Tudor</b>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p>Registergericht Stuttgart, HRB 788 300;</p>
+      <p>Umsatzsteueridentifikationsnummer (USt-ID): DE 359 484 191;</p>
+      <p>Steuer-Nummer: 14009 / 65 024;</p>
+      <p>EORI-Nummer: DE 851 081 267 869 956;</p>
+      <br></br>
       </div>
     </section>
   );

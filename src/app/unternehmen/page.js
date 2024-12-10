@@ -35,11 +35,11 @@ const page = () => {
                             <li>Marktanforderungen (Innovation, KI, politische Anforderungen, Umwelt,
                                 Nachhaltigkeit)
                             </li>
-                            <li>Marktanforderungen und Produktkomplexität per se</li>
+                            <li>Steigende Produktkomplexität und Variantenvielfalt bei kürzeren Produktlebens- und Innovations-Zyklen</li>
                             <li>Immer mehr unvorhersehbare und unkalkulierbare Einflussgrößen mit Wechselwirkungen
                                 in
                                 der Wertschöpfungskette und im Stakeholder-Netzwerk</li>
-                            <li>Rahmenbedingungen (z.B. ESG, Compliance, Lieferkettengesetz u.v.m.)</li>
+                            <li>Permanent wechselnde Rahmenbedingungen</li>
                             <li>Abschätzung und Antizipierung von künftigen Serienpreisen von Beschaffungsumfängen
                                 zunehmend schwieriger</li>
                         </ul>
@@ -54,18 +54,20 @@ const page = () => {
                 <div className="analytics-wrapper">
                     <div className="com-title">
                         <span> RESSOURCENVERBRAUCH </span>
-                        <h2>Ressourcenverbrauch steigt in allen Unternehmensbereichen und Im gesamten
-                            Wertschöpfungskette und Stakeholder-Netzwerk</h2>
+                        <h2>Der Ressourcenverbrauch steigt in allen Unternehmensbereichen, über die gesamte Wertschöpfungskette hinweg und auch im Stakeholder-Netzwerk</h2>
                     </div>
                     <div className="unter-analy-box">
                         <div className="analytics-text">
-                            <p>Daten, IT-Systeme, Personal, Organisationseinheiten vor allem indirekte Bereiche etc.
-                                Zusätzliche Organisationseinheiten mit eigenen Strukturen, Datenbanken, Daten und
-                                damit
-                                auch Redundanz werden geschaffen und müssen verwaltet werden (Bsp.
-                                Standardkomponente
-                                wird mit unterschiedlichen Artikelnummern in verschiedenen Systemen verwaltet)
-                            </p>
+                            <p>Volumen an Daten, Anzahl an IT-Systeme</p>
+                        </div>
+                        <div className="analytics-text">
+                            <p>Anzahl und Umfang an Organisationseinheiten - vor allem in den „indirekten Bereichen“ nimmt stetig zu</p>
+                        </div>
+                        <div className="analytics-text">
+                            <p>Administrationsaufwand steigt überproportional</p>
+                        </div>
+                        <div className="analytics-text">
+                            <p>Anzahl an „Dupletten“, Redundanzen und Fehlerpotenzial nimmt spürbar zu (z.B. Standardkomponente wird mit unterschiedlichen Artikelnummern in verschiedenen Systemen verwaltet)</p>
                         </div>
                         <div className="unter-img">
                         <Image src={unter2} alt="unter image"/>
@@ -82,16 +84,19 @@ const page = () => {
                     <div className="com-title">
                         <span> VERBRAUCH </span>
                         <h2>Entscheidungen in komplexen Organisationseinheiten mit vielen Ebenen, Prozessen und
-                            Schnittstellen werden auf Grundlage unvollständiger, falscher und manchmal
+                            Schnittstellen, werden auf Grundlage unvollständiger, falscher und manchmal
                             widersprüchlicher
-                            Informationen getroffen. </h2>
+                            Informationen getroffen</h2>
                     </div>
                     <div className="unter-analy-box">
+                    <div className="analytics-text">
+                            <p>Objektivierte Subjektivität“ als Entscheidungsgrundlage produktwirtschaftlicher Überlegungen</p>
+                        </div>
                         <div className="analytics-text">
-                            <p>“Objektivierte Subjektivität“ als Entscheidungsgrundlage produktwirtschaftlicher
-                                Überlegungen
-                                Entscheidungszeiten werden immer länger”
-                            </p>
+                            <p>Entscheidungszeiten und Abstimmungsschleifen werden immer länger bzw. größer</p>
+                        </div>
+                        <div className="analytics-text">
+                            <p>Es stehen nie alle möglichen Alternativen “sauber bewertet“ als Entscheidungsgrundlage zur Verfügung</p>
                         </div>
                         <Image src={unter4} alt="unter image"/>
                     </div>
@@ -170,17 +175,12 @@ const page = () => {
                         <Image src={unter5} alt="unter image"/>
                         <div className="unter-text">
                             <ul>
-                                <li>Dr. Nicolae Tudor und Volker P. Zimmerer, MBA beschließen 2024 eine gemeinsame
-                                    Zusammenarbeit in Form der Entwicklung und des Vertriebes von neuronaler,
-                                    KI-gestützter, integrativer Software Analyse Lösungen für Industrieunternehmen
-
+                                <li>Dr. Nicolae Tudor und Volker P. Zimmerer MBA beschließen 2024 eine gemeinsame Zusammenarbeit zur Entwicklung neuronaler, KI-gestützter, integrativer Software Analyse Lösungen auf der Basis des „Big-Data-Ansätzes“
                                 </li>
-                                <li>Eine bestehende Gesellschaft aus dem Netzwerk von Volker P. Zimmerer wird zum
-                                    gemeinsamen Rechtsträger und zur Enterprise Analytics Software GmbH umbenannt
+                                <li>Eine bestehende Gesellschaft wird zur Enterprise Analytics Software GmbH umbenannt, die A&A Tudor Systems s.r.l. in Hermannstadt (Sibiu) Rumänien, firmiert nun als gemeinsame Entwicklungsgesellschaft Enterprise Analytics Software GmbH Romania s.r.l.
                                 </li>
-                                <li>Die Gesellschaft hat ihre Büroräume in der Stuttgarter Innenstadt im Collection
-                                    Business Center in der Königstraße 27, wo sich auch die Unternehmensberatung ZMC
-                                    von Volker P. Zimmerer befindet </li>
+                                <li>Die deutsche Vertriebsgesellschaft hat ihre Büroräume – zusammen mit den Räumlichkeiten der Unternehmensberatung Z management consulting von Volker P. Zimmerer –  in der Stuttgarter Innenstadt im Collection Business Center
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -196,20 +196,15 @@ const page = () => {
                     <span> WER WIR ALS UNTERNEHMEN SIND </span>
                     <h2 className="unter">KUNDEN UND MÄRKTE </h2>
                 </div>
-                <p><strong>Unsere Softwarelösungen sind für Kunden der unterschiedlichsten Märkte geeignet. Folgende
-                        Prämissen sind aber zu erfüllen:</strong></p>
+                <p><strong>Unsere Softwarelösungen sind für Kunden unterschiedlichster Märkte geeignet. Grundsätzlich gilt: Je komplexer die nachfolgenden Punkte ausgeprägt sind, desto größer ist der potenzielle Hebel:</strong></p>
 
                 <ul>
-                    <li>Produkte sind hinreichend komplex (bestehen aus vielen Bauteilen und Baugruppen)</li>
-                    <li>Hinreichend komplexe Beschaffungsstruktur (Vielzahl von Lieferanten und verschiedenste
-                        Beschaffungsumfänge)</li>
-                    <li>Produkte werden mit Hilfe eines mehrstufigen, häufigen Simultaneous-Engineering-Ansatzes im
-                        Rahmen eines Produktentwicklungs- / Produktentstehungsprozesses – zumeist im
-                        Wertschöpfungskettennetzwerk – gemeinsam mit dem Kunden und dem Lieferanten bis zum „Start
-                        of Production (SOP)“ / zur Serienreife entwickelt</li>
-                    <li>Produkt kann im Zuge einer Auftragsfertigung oder einer Serienfertigung erstellt werden
-                        (Kreuzfahrtschiff, Maschine, Kfz in Serie, typische Systeme, Baugruppen oder Bauteile von
-                        0,5-Tier-, 1st-Tier- oder 2nd-Tier-Lieferanten)</li>
+                    <li>Produkte selbst sind hinreichend komplex (bestehen aus vielen Baugruppen und Bauteilen)</li>
+                    <li>Vielzahl an Produktvarianten oder Derivaten</li>
+                    <li>Komplexe Beschaffungsstruktur (Vielzahl von Lieferanten und verschiedenste Beschaffungsumfänge)</li>
+                    <li>Produkte entstehen im Rahmen eines typischen, mehrstufigen Produktentwicklungs- / Produktentstehungsprozesses. Das Produkt wird zumindest im Wertschöpfungskettennetzwerk – gemeinsam mit dem Kunden und dem Lieferanten – zur Serienreife hin, oder bis zur Fertigstellung der Anlage, entwickelt</li>
+                    <li>Produkt kann im Zuge einer Auftragsfertigung oder einer Serienfertigung erstellt werden (z.B. Kreuzfahrtschiff, Großanlage, Nutzfahrzeug, Kraftfahrzeuge, Baugruppen oder Bauteile von 0,5-Tier-, 1st-Tier- oder 2nd-Tier-Lieferanten)
+                    </li>
                 </ul>
             </div>
         </div>
@@ -257,21 +252,3 @@ const page = () => {
 }
 
 export default page
-
-export function generateMetadata() {
-    return {
-        title: "Über EAS Corporation – Führend in Technologie und Innovation",
-        description: "Erfahren Sie mehr über EAS Corporation, unsere Unternehmensphilosophie, Werte und Visionen. Wir setzen auf Innovation und Kundenorientierung für nachhaltigen Erfolg.",
-        openGraph: {
-            title: "Über EAS Corporation – Führend in Technologie und Innovation",
-            description: "Erfahren Sie mehr über EAS Corporation, unsere Unternehmensphilosophie, Werte und Visionen. Wir setzen auf Innovation und Kundenorientierung für nachhaltigen Erfolg.",
-            images: [
-                {
-                    url: "../public/img/logo.png", 
-                    alt: "EAS Unternehmensgebäude",  // Updated alt tag
-                    description: "Das Hauptgebäude der EAS Corporation, das den Fortschritt und die Innovationskraft des Unternehmens symbolisiert."  // Updated image description
-                }
-            ],
-        },
-    };
-}

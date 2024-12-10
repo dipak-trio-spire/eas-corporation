@@ -1,5 +1,5 @@
 "use client";
-import React, { useState , useEffect } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import kotacktBG from "../../../public/img/kotackt-bg.png";
 import call from "../../../public/img/call.svg";
@@ -8,7 +8,6 @@ import location from "../../../public/img/location.svg";
 import map from "../../../public/img/map.png";
 import Link from "next/link";
 import Newsletter from "@/component/Newsletter";
-import { generateMetadata } from '@/app/Kontakt_metadata';
 
 const Page = () => {
   const [formData, setFormData] = useState({
@@ -23,48 +22,6 @@ const Page = () => {
   const [success, setSuccess] = useState(false); // State to track submission success
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false); // State to track loading status
-
-useEffect(() => {
-    const metadata = generateMetadata();
-    // Set the document title
-    document.title = metadata.title;
-
-    // Set meta description
-    let descriptionMeta = document.querySelector("meta[name='description']");
-    if (!descriptionMeta) {
-      descriptionMeta = document.createElement("meta");
-      descriptionMeta.name = "description";
-      document.head.appendChild(descriptionMeta);
-    }
-    descriptionMeta.content = metadata.description;
-
-    // Set Open Graph title
-    let ogTitleMeta = document.querySelector("meta[property='og:title']");
-    if (!ogTitleMeta) {
-      ogTitleMeta = document.createElement("meta");
-      ogTitleMeta.property = "og:title";
-      document.head.appendChild(ogTitleMeta);
-    }
-    ogTitleMeta.content = metadata.openGraph.title;
-
-    // Set Open Graph description
-    let ogDescriptionMeta = document.querySelector("meta[property='og:description']");
-    if (!ogDescriptionMeta) {
-      ogDescriptionMeta = document.createElement("meta");
-      ogDescriptionMeta.property = "og:description";
-      document.head.appendChild(ogDescriptionMeta);
-    }
-    ogDescriptionMeta.content = metadata.openGraph.description;
-
-    // Set Open Graph image
-    let ogImageMeta = document.querySelector("meta[property='og:image']");
-    if (!ogImageMeta) {
-      ogImageMeta = document.createElement("meta");
-      ogImageMeta.property = "og:image";
-      document.head.appendChild(ogImageMeta);
-    }
-    ogImageMeta.content = metadata.openGraph.images[0].url;
-  }, []);
 
   const handleChange = (e) => {
     setFormData({

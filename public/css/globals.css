@@ -426,6 +426,12 @@ header {
   -o-transform: translate(-50%, -50%);
 }
 
+.Service_ul{
+  text-align: left;
+}
+.Service_ul li{
+  margin-bottom: 5px !important;
+}
 .service-hover p {
   font-size: 20px;
   font-weight: 400;
@@ -1323,6 +1329,11 @@ button.owl-prev span {
   width: calc(50% - 24px);
 }
 
+.interface_image{
+  object-fit: contain !important;
+
+}
+
 .pr-text {
   display: flex;
   flex-direction: column;
@@ -1344,9 +1355,9 @@ button.owl-prev span {
   gap: 48px;
 }
 
-.product-line .com-title {
+/* .product-line .com-title {
   text-align: left;
-}
+} */
 
 .product-line img {
   margin: 20px 0;
@@ -1775,6 +1786,7 @@ padding-top: 150px;
 
   .unter-analy-box img {
       height: 300px;
+      
   }
 
   .unter-postion-img img {
@@ -1829,8 +1841,11 @@ padding-top: 150px;
       width: 100%;
   }
 
+  .interface_image{
+    object-fit: cover !important;
+  }
   .f-ns-mail form {
-      justify-content: center;
+      justify-content: center ;
   }
 
   .f-main {

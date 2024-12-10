@@ -128,21 +128,3 @@ const page = () => {
 }
 
 export default page
-
-export function generateMetadata() {
-    return {
-        title: "Dokumente – Wichtige Informationen bei EAS Corporation herunterladen",
-        description: "Laden Sie wichtige Dokumente, Anleitungen und Unternehmensinformationen der EAS Corporation bequem herunter. Aktuelle Informationen jederzeit verfügbar.",
-        openGraph: {
-            title: "Dokumente – Wichtige Informationen bei EAS Corporation herunterladen",
-            description: "Laden Sie wichtige Dokumente, Anleitungen und Unternehmensinformationen der EAS Corporation bequem herunter. Aktuelle Informationen jederzeit verfügbar.",
-            images: [
-                {
-                    url: "/img/logo.png", // Update to the correct relative path
-                    alt: "EAS Corporation Dokumentensammlung", // Updated alt tag
-                    description: "Sammlung wichtiger Dokumente, die Kunden und Partner der EAS Corporation zur Verfügung stehen." // Updated image description
-                }
-            ],
-        },
-    };
-}

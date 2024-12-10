@@ -148,7 +148,7 @@ const Footer = () => {
                 <div className="copy-wrapper">
                     <div className="copy-text">
                     <Image src={copy_right} alt="copy_right"/>
-                        <p>2024 Enterprise Analytics Software GMBH</p>
+                        <p>2024 Enterprise Analytics Software GmbH</p>
                     </div>
                     <div className="copy-link">
                         <Link href="/impressum" aria-label="">Impressum</Link>

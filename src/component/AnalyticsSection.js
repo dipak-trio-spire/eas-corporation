@@ -9,7 +9,7 @@ export default function AnalyticsSection() {
             </div>
             <div className="analytics-text">
               <p>
-                Die Enterprise Analytics Software GmbH entwickelt, adaptiert und betreibt KI-gestützte Analyse-, Monitoring- und Management-Software-Lösungen für Unternehmen, die komplexe Produkte entwickeln und herstellen.
+                Die Enterprise Analytics Software GmbH entwickelt, adaptiert und betreibt KI-gestützte Analyse-, Monitoring- und Management-Software-Lösungen für Unternehmen, die komplexe Produkte entwickeln und herstellen
               </p>
             </div>
             <div className="analytics-text">
@@ -19,7 +19,12 @@ export default function AnalyticsSection() {
             </div>
             <div className="analytics-text">
               <p>
-              	Dabei setzt die Software aktiv <strong>maßgeschneiderte, virtuelle, selbstlernende und kommunizierende KI-Agenten in einem neuronalen Netzwerk</strong> ein. Diese Agenten übernehmen vollständig die Arbeit der Software.
+              Die Lösung fokussiert <strong>ausschließlich das Produkt,</strong> dessen Baugruppen und Einzelteile. Es werden <strong>pro Bauteil alle Kennzahlen</strong> und <strong>entscheidungsrelevanten Informationen</strong> analysiert, bewertet und aggregiert im EAS Cockpit dargestellt. Beginnend beim Einzelteil, kann man dann über die Komponente, Baugruppe, SET, Fachbereich, Gesamt-Produkt / -Projekt, Markt-Segment bis hin zum Gesamtunternehmen das Cockpit aggregieren
+              </p>
+            </div>
+            <div className="analytics-text">
+              <p>
+              	Dabei setzt die Software aktiv <strong>maßgeschneiderte, virtuelle, selbstlernende und kommunizierende KI-Agenten in einem neuronalen Netzwerk</strong> ein. Diese Agenten übernehmen vollständig die Arbeit der Software
               </p>
             </div>
             <div className="analytics-text">
@@ -29,12 +34,12 @@ export default function AnalyticsSection() {
             </div>
             <div className="analytics-text">
               <p>
-              Diese <strong>übergreifende Transparenz</strong> schafft die Voraussetzung, ihr Geschäft kontinuierlich überwachen und steuern zu können. Das wirkt sich unmittelbar auf ihre Ressourcenallokation und die künftige Ergebnis-Entwicklung des Unternehmens aus.
+              Diese <strong>übergreifende Transparenz</strong> schafft die Voraussetzung, ihr Geschäft permanent überwachen und steuern zu können. Das wirkt sich unmittelbar auf ihre Ressourcenallokation und die künftige Ergebnis-Entwicklung des Unternehmens aus
               </p>
             </div>
             <div className="analytics-text">
               <p>
-              Darüber hinaus bietet unsere Software die Möglichkeit, tiefere Einblicke in den aktuellen Stand aller laufenden interdisziplinären Prozesse eines Entwicklungsprojektes gewinnen zu können (z.B. Sourcing-Stati, vorliegende Reifegrade, aktuelle Risikobewertung, Finanzauswertungen uvm.).
+              Darüber hinaus bietet unsere Software die Möglichkeit, tiefere Einblicke in den aktuellen Stand aller laufenden interdisziplinären Prozesse eines Entwicklungsprojektes gewinnen zu können (z.B. Sourcing-Stati, vorliegende Reifegrade, aktuelle Risikobewertung, Finanzauswertungen uvm.)
               </p>
             </div>
           </div>

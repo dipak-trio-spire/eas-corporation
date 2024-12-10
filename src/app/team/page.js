@@ -30,13 +30,13 @@ const page = () => {
                         <div className="team-content">
                             <div className="team-title">
                                 <h2>Nicolae Tudor</h2>
-                                <span>DIPL.-ING. (UNIV), DR. ING.</span>
+                                <span>Dipl.-Ing. (univ.), Dr.-Ing.</span>
                             </div>
                             <div className="team-text">
-                                <p>Geschäftsführender und Gesellschafter <br/> EAS GmbH</p>
+                                <p>Geschäftsführender Gesellschafter</p>
                             </div>
                             <div className="team-text">
-                                <p>Unternehmer Softwareentwickler Wissenschaftler Projektmanager</p>
+                                <p>Mathematiker, Software-Entwickler, Wissenschaftler, Autor und Projektmanager</p>
                             </div>
                             <div className="team-call">
                             <Image src={team_Call} alt="team_Call"/>
@@ -48,11 +48,7 @@ const page = () => {
                                     nt@eas-corporation.com</Link>
                             </div>
                             <div className="team-text-cont">
-                                <p>20 Jahre Automotive-Erfahrung als Führungskraft und Projektleiter in großen
-                                    Automobilunternehmen
-                                    15 Jahre Einkauf-und Supply-Chain-Management (SQM)
-                                    Projekte in der Organisations-, System- und Prozesslandschaft
-                                    Produktentwicklung und Produkt-Management-Systeme</p>
+                                <p>20 Jahre Automotive-Erfahrung als Führungskraft und Projektleiter in großen Automobilunternehmen 15 Jahre Einkauf-und Supply-Chain-Management (SQM) Projekte in der Organisations-, System- und Prozesslandschaft Produktentwicklung und Produkt-Management-Systeme</p>
                             </div>
                         </div>
                     </div>
@@ -64,10 +60,10 @@ const page = () => {
                         <div className="team-content">
                             <div className="team-title">
                                 <h2>Volker P. Zimmerer</h2>
-                                <span>DIPL.-BETRW. (FH), MBA (UNIV.)</span>
+                                <span>Dipl.-Betriebswirt (FH), <br/>Master of Business Administration – MBA (univ.)</span>
                             </div>
                             <div className="team-text">
-                                <p>Geschäftsführender und Gesellschafter <br/> EAS GmbH</p>
+                                <p>Geschäftsführender Gesellschafter</p>
                             </div>
                             <div className="team-text">
                                 <p>Unternehmer, Unternehmensberater, Interims-Manager, Investor, Coach & Mediator</p>
@@ -83,14 +79,8 @@ const page = () => {
                                     vpz@eas-corporation.com</Link>
                             </div>
                             <div className="team-text-cont">
-                                <p>20 Jahre Umsetzungserfahrung in uber 40 leistungs-und finanzwirtzschaftlichen
-                                    Projekten als Unternehmer & Investor,
-                                    Unternehmensberater und als Interims CEO, CRO, CFO, CHRO in der Automobil-und
-                                    Zulieferindustrie, des Maschinen-und Anlagenbaus, der Metallverarbeitung und im
-                                    Stahlbau. <br/>
-                                    Begleitung von Unternehmern und Unternehmen in Sondersituationen; vor allem in allen
-                                    Krisen-Phasen von der Stakeholder-Krise bis hin zur Umsetzung von
-                                    Insolvenzverfahren.</p>
+                                <p>20 Jahre Umsetzungserfahrung in über 40 leistungs-und finanzwirtschaftlichen Projekten als Interim CEO, CRO, CFO, CHRO in der Automobilindustrie, im Maschinen-und Anlagenbau, in der Metallverarbeitung, im Stahlbau, in der Holzindustrie und in der Texilindustrie <br/>
+                                Begleitung von Unternehmern und Unternehmen in ausgeprägten Sondersituationen; vor allem in Krisen-Phasen (Stakeholder-Krise bis zur Umsetzung von Insolvenzverfahren)</p>
                             </div>
                         </div>
                     </div>
@@ -103,22 +93,3 @@ const page = () => {
 }
 
 export default page
-
-
-export function generateMetadata() {
-    return {
-        title: "EAS Corporation Team – Experten für innovative Lösungen",
-        description: "Lernen Sie unser erfahrenes Team von Experten bei EAS Corporation kennen. Wir sind die Köpfe hinter den intelligenten und innovativen Lösungen für Ihre Branche.",
-        openGraph: {
-            title: "EAS Corporation Team – Experten für innovative Lösungen",
-            description: "Lernen Sie unser erfahrenes Team von Experten bei EAS Corporation kennen. Wir sind die Köpfe hinter den intelligenten und innovativen Lösungen für Ihre Branche.",
-            images: [
-                {
-                    url: "/img/logo.png", // Update to the correct relative path
-                    alt: "EAS Corporation Team", // Updated alt tag
-                    description: "Das Team der EAS Corporation, bestehend aus Experten verschiedener Fachrichtungen, die gemeinsam technologische Lösungen entwickeln." // Updated image description
-                }
-            ],
-        },
-    };
-}
