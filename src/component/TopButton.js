@@ -62,7 +62,8 @@ const TopButton = () => {
         border: 'none',
         borderRadius: '5px',
         cursor: 'pointer',
-        display: visible ? 'block' : 'none', // Show/hide based on visibility state
+        display: visible ? 'block' : 'none', 
+        zIndex:999,
       }}
       aria-label="Scroll to top" // Accessibility label
     >

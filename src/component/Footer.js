@@ -122,7 +122,7 @@ const Footer = () => {
             </div>
             <div className="f-ns-mail">
               <form onSubmit={handleSubmit} method="POST">
-                <input type="email" name='email' placeholder="Ihre E-Mail eingeben" value={formData.email} onChange={handleChange} />
+                <input type="email" name='email' placeholder="Ihre E-Mail eingeben" value={formData.email} onChange={handleChange} required/>
                 <div className="in-button"><input type="submit" value={loading ? "ABONNIEREN..." : "ABONNIEREN"} disabled={loading} /></div>
               </form>
               

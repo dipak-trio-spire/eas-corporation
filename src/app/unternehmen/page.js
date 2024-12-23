@@ -82,7 +82,7 @@ const page = () => {
             <div className="container">
                 <div className="analytics-wrapper py py-b">
                     <div className="com-title">
-                        <span> VERBRAUCH </span>
+                        <span> ENTSCHEIDUNGSGRUNDLAGEN </span>
                         <h2>Entscheidungen in komplexen Organisationseinheiten mit vielen Ebenen, Prozessen und
                             Schnittstellen, werden auf Grundlage unvollständiger, falscher und manchmal
                             widersprüchlicher
@@ -108,7 +108,9 @@ const page = () => {
     <section className="unter-about py">
         <div className="container">
             <div className="unter-about-wrapper">
-                <div className="unter-about-title">AUSWIRKUNGEN DER GENANNTEN ENTWICKLUNG IN UNTERNEHMEN </div>
+                <div className="unter-about-title com-title">
+                 <span>AUSWIRKUNGEN DER GENANNTEN ENTWICKLUNG AUF UNTERNEHMEN UND DEREN ORGANISATION </span>
+                </div>
                 <div className="unter-about-boxs">
                     <div className="unter-about-box">
                         <div className="unter-about-no">
@@ -168,7 +170,7 @@ const page = () => {
             <div className="analytics-wrapper">
                 <div className="unter-analy-box">
                     <div className="com-title">
-                        <span> WISSEN ÜBER UNSER UNTERNEHMEN </span>
+                        {/* <span> WISSEN ÜBER UNSER UNTERNEHMEN </span> */}
                         <h2 className="unter">DAS UNTERNEHMEN </h2>
                     </div>
                     <div className="unter-img">
@@ -177,8 +179,8 @@ const page = () => {
                             <ul>
                                 <li>Dr. Nicolae Tudor und Volker P. Zimmerer MBA beschließen 2024 eine gemeinsame Zusammenarbeit zur Entwicklung neuronaler, KI-gestützter, integrativer Software Analyse Lösungen auf der Basis des „Big-Data-Ansätzes“
                                 </li>
-                                <li>Eine bestehende Gesellschaft wird zur Enterprise Analytics Software GmbH umbenannt, die A&A Tudor Systems s.r.l. in Hermannstadt (Sibiu) Rumänien, firmiert nun als gemeinsame Entwicklungsgesellschaft Enterprise Analytics Software GmbH Romania s.r.l.
-                                </li>
+                                <li>Eine bestehende Gesellschaft wird zur Enterprise Analytics Software GmbH umbenannt.</li>
+                                <li> die A&A Tudor Systems s.r.l. in Hermannstadt (Sibiu) Rumänien, firmiert nun als gemeinsame Entwicklungsgesellschaft Enterprise Analytics Software GmbH Romania s.r.l.</li>
                                 <li>Die deutsche Vertriebsgesellschaft hat ihre Büroräume – zusammen mit den Räumlichkeiten der Unternehmensberatung Z management consulting von Volker P. Zimmerer –  in der Stuttgarter Innenstadt im Collection Business Center
                                 </li>
                             </ul>
@@ -192,9 +194,9 @@ const page = () => {
     <section className="unter-analy unter-analy-ti py py-b">
         <div className="container">
             <div className="analytics-wrapper">
-                <div className="com-title">
+                <div className="com-title com-title">
                     <span> WER WIR ALS UNTERNEHMEN SIND </span>
-                    <h2 className="unter">KUNDEN UND MÄRKTE </h2>
+                    <h2 className="">KUNDEN UND MÄRKTE </h2>
                 </div>
                 <p><strong>Unsere Softwarelösungen sind für Kunden unterschiedlichster Märkte geeignet. Grundsätzlich gilt: Je komplexer die nachfolgenden Punkte ausgeprägt sind, desto größer ist der potenzielle Hebel:</strong></p>
 
@@ -217,7 +219,7 @@ const page = () => {
                     <div className="unter-img">
                         <div className="unter-img-text">
                             <div className="com-title">
-                                <span> WER WIR ALS UNTERNEHMEN SIND </span>
+                                {/* <span> WER WIR ALS UNTERNEHMEN SIND </span> */}
                                 <h2 className="unter">BRANCHEN </h2>
                             </div>
                             <ul>

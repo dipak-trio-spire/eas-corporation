@@ -130,8 +130,9 @@ const Page = () => {
                   <div className="cd-title">
                     <p>Adresse</p>
                     <p>
-                      Königstraße 27 <br />
-                      70173 Stuttgart
+                    Enterprise Analytics Software GmbH <br />
+                    Königstrasse 27 <br />
+                    70173 Stuttgart / Germany
                     </p>
                   </div>
                 </div>

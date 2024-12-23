@@ -2,7 +2,8 @@
 import Image from "next/image";
 import productBG from "../../../public/img/portfolio-bg.jpeg";
 import product1 from "../../../public/img/portfolio-bg2.jpeg";
-import pr1 from "../../../public/img/pr-1.png";
+import pr1 from "../../../public/img/pr-1.jpg";
+import pr12 from "../../../public/img/12.jpg";
 import pr2 from "../../../public/img/portfolio-bg4.jpg";
 import product2 from "../../../public/img/portfolio-bg3.jpeg";
 import Portfolio_Caraousel from "@/component/Portfolio_Caraousel";
@@ -28,34 +29,10 @@ const page = () => {
           <div className="product-dec-wrapper py">
             <div className="com-title">
               <span> KAPITEL : 1 </span>
-              <h2>Technischer Lösungsansatz</h2>
+              <h2>TECHNISCHER LÖSUNGSANSATZ</h2>
             </div>
-            <div className="product-dami-text">
-              <p>
-                In der heutigen technologischen Landschaft sind Künstliche
-                Intelligenz (KI) und neuronale Netzwerke von zentraler
-                Bedeutung, da diese die Voraussetzung für den zeitgemäßen Abbau
-                von organisatorischen Hürden und Schnittstellen sind.
-              </p>
-              <p>
-                Die Enterprise Analytics Software GmbH hat eine vollintegrierte
-                Analyse- und Monitoring-Softwarelösung entwickelt, die
-                sicherstellt, dass die definierte Gewinn-Marge im Zuge der
-                Kunden-Produktentwicklung realisiert wird:
-              </p>
-            </div>
+            
             <div className="product-title">
-              <h2>
-                Digitale EAS KI-Agenten®, die unterschiedliche Aufgaben haben
-                und diese lösen können (z.B. KI-Agent für Projekte, für
-                Einkaufsobjekte, für Qualitätsmerkmale, Suche nach Duplikaten,
-                etc.).{" "}
-              </h2>
-              <p>
-                Die Agenten sind darauf ausgerichtet, effizient und präzise zu
-                arbeiten, um die gewünschten Ergebnisse zu erzielen.
-              </p>
-
               <p>
                 <strong>
                   A) In der heutigen technologischen Landschaft sind die Verwendung künstlicher Intelligenz (KI) und neuronaler Netzwerke von zentraler Bedeutung, da diese die Voraussetzung für den zeitgemäßen Abbau von organisatorischen Hürden und Schnittstellen darstellen. 
@@ -99,10 +76,6 @@ const page = () => {
               <Portfolio_Caraousel/>
             </div>
             <div className="product-title">
-              <h2>
-                EAS KI-Agenten® kommunizieren selbstständig und permanent im EAS
-                Neuronalen-Netzwerk® untereinander.{" "}
-              </h2>
               <p>
                 <strong>
              C) EAS KI-AGENTEN® kommunizieren selbstständig und permanent im lernenden EAS NEURONALEN NETZWERK® untereinander : 
@@ -145,9 +118,7 @@ const page = () => {
                   {" "}
                   </p>
                 </div>
-                <Image src={pr1} className="interface_image" alt="product analy" />
-              </div>
-              <div className="pr-text">
+                <div className="pr-text">
                 <ul>
                   <li>Prozessebene :</li>
                 </ul>
@@ -157,6 +128,8 @@ const page = () => {
 
                 </p>
               </div>
+              </div>
+                <Image src={pr1} className="interface_image" alt="product analy" />
             </div>
             <div className="product-line">
               <div className="com-title">
@@ -186,7 +159,7 @@ const page = () => {
               <div className="pr-blog-boxs">
                 <div className="pr-blog-box">
                   <div className="pr-title">
-                    <p>Fehlender Produkt- / ProjektbezugEinzelkomponenten</p>
+                    <p>Fehlender Produkt- / Projektbezug Einzelkomponenten</p>
                   </div>
                   <div className="pr-dec">
                     <p>
@@ -223,14 +196,16 @@ const page = () => {
                   </div>
                 </div>
               </div>
+              {/* <Image src={pr2} alt="product blog" /> */}
             </div>
             <div className="product-line">
               <div className="com-title">
                 <span> KAPITEL : 5 </span>
-                <h2>DEFIZITE AKTUELLER MARKTLÖSUNGEN </h2>
+                <h2>INTEGRATIION KUNDENSYSTEME</h2>
+                <Image src={pr12} alt="product blog" />
               </div>
-              <Image src={pr2} alt="product blog" />
             </div>
+            
           </div>
         </div>
       </section>

@@ -36,13 +36,13 @@ const services = [
     imgSrc: img1,
     text: [
       "Denkbare Aggregationsebenen Cockpit",
-      "- Gesamtunternehmen",
-      "- Business Unit / z.B. Segment",
-      "- Produkt und Derivate / Varianten",
-      "- Fachbereiche (z.B. Karosserie, Fahrwerk, Elektrik- / Elektronik)",
-      "- SET Simultaneous Engineering Team",
-      "- Baugruppe / Komponente",
-      "- Einzelteil"
+      "Gesamtunternehmen",
+      "Business Unit / z.B. Segment",
+      "Produkt und Derivate / Varianten",
+      "Fachbereiche (z.B. Karosserie, Fahrwerk, Elektrik- / Elektronik)",
+      "SET Simultaneous Engineering Team",
+      "Baugruppe / Komponente",
+      "Einzelteil"
     ],
     hoverText: 'Gerne stellen wir Ihnen unser Produkt in einer Videokonferenz vor',
   }
@@ -53,7 +53,7 @@ export default function ServiceSection() {
     <section className="service py">
       <div className="container">
         <div className="service-wrapper">
-          <div className="com-title">
+          <div className="com-title ">
             <span>WAS WIR BIETEN</span>
             <h2>Leistungsbeschreibung EAS Cockpit</h2>
           </div>
@@ -69,7 +69,7 @@ export default function ServiceSection() {
                       <p>{service.text[0]}</p>
                       <ul className='Service_ul'>
                         {service.text.slice(1).map((item, i) => (
-                          <li key={i}>{item}</li>
+                          <li key={i}><span>-</span>{item}</li>
                         ))}
                       </ul>
                     </>
