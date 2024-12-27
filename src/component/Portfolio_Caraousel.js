@@ -6,7 +6,6 @@ import ps3 from "../../public/img/ps-3.png";
 import { useEffect, useRef } from "react";
 const Portfolio_Caraousel = () => {
     const carouselRef = useRef();
-
     useEffect(() => {
         // Only run this on the client side (after the component mounts)
         if (typeof window !== "undefined") {

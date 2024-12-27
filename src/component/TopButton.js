@@ -44,7 +44,7 @@ const TopButton = () => {
     // Add scroll event listener to toggle button visibility
     window.addEventListener('scroll', toggleVisibility);
     return () => {
-      // Clean up event listener on component unmount
+      // Clean up event listener on component unmount 
       window.removeEventListener('scroll', toggleVisibility);
     };
   }, []);
@@ -65,7 +65,7 @@ const TopButton = () => {
         display: visible ? 'block' : 'none', 
         zIndex:999,
       }}
-      aria-label="Scroll to top" // Accessibility label
+      aria-label="Scroll to top"
     >
       {/* SVG Icon */}
       <Image src={Top_button} alt="Top_button"/>
